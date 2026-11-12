@@ -1,0 +1,141 @@
+description,amount,category,date
+college canteen lunch,45,Food,2026-10-01
+vada pav and tea,60,Food,2026-10-02
+mess dinner,85,Food,2026-10-03
+campus snacks,110,Food,2026-10-04
+grocery vegetables,130,Food,2026-10-05
+coffee between lectures,35,Food,2026-10-06
+sandwich at college,75,Food,2026-10-07
+hostel breakfast,90,Food,2026-10-08
+pizza with friends,180,Food,2026-10-09
+milk and bread,55,Food,2026-10-10
+city bus ticket,15,Travel,2026-10-01
+college bus pass,30,Travel,2026-10-02
+auto rickshaw fare,50,Travel,2026-10-03
+train ticket home,120,Travel,2026-10-04
+metro recharge,100,Travel,2026-10-05
+shared cab to campus,80,Travel,2026-10-06
+petrol contribution,70,Travel,2026-10-07
+local bus fare,20,Travel,2026-10-08
+cycle repair,90,Travel,2026-10-09
+rickshaw to station,45,Travel,2026-10-10
+engineering textbook,350,Education,2026-10-01
+notebook and pens,120,Education,2026-10-02
+photocopy assignment,25,Education,2026-10-03
+lab record book,80,Education,2026-10-04
+online course fee,499,Education,2026-10-05
+printing project report,60,Education,2026-10-06
+calculator for class,280,Education,2026-10-07
+exam form fee,750,Education,2026-10-08
+stationery supplies,95,Education,2026-10-09
+reference book,420,Education,2026-10-10
+new headphones,650,Shopping,2026-10-01
+phone case,180,Shopping,2026-10-02
+college t shirt,450,Shopping,2026-10-03
+backpack purchase,900,Shopping,2026-10-04
+water bottle,120,Shopping,2026-10-05
+casual shoes,1100,Shopping,2026-10-06
+usb cable,90,Shopping,2026-10-07
+watch strap,150,Shopping,2026-10-08
+laundry detergent,160,Shopping,2026-10-09
+umbrella,300,Shopping,2026-10-10
+movie ticket,180,Entertainment,2026-10-01
+concert entry,250,Entertainment,2026-10-02
+gaming subscription,99,Entertainment,2026-10-03
+music subscription,149,Entertainment,2026-10-04
+bowling with friends,220,Entertainment,2026-10-05
+streaming rental,80,Entertainment,2026-10-06
+college fest ticket,300,Entertainment,2026-10-07
+arcade games,120,Entertainment,2026-10-08
+museum entry,100,Entertainment,2026-10-09
+weekend outing,400,Entertainment,2026-10-10
+mobile recharge,199,Bills,2026-10-01
+monthly data plan,249,Bills,2026-10-02
+electricity contribution,300,Bills,2026-10-03
+hostel wifi share,150,Bills,2026-10-04
+water bill share,100,Bills,2026-10-05
+phone bill,180,Bills,2026-10-06
+internet recharge,299,Bills,2026-10-07
+printing subscription,79,Bills,2026-10-08
+hostel maintenance,500,Bills,2026-10-09
+software subscription,129,Bills,2026-10-10
+medicine from pharmacy,90,Other,2026-10-01
+haircut,120,Other,2026-10-02
+birthday gift,250,Other,2026-10-03
+parcel delivery,60,Other,2026-10-04
+shoe repair,150,Other,2026-10-05
+document courier,80,Other,2026-10-06
+small donation,50,Other,2026-10-07
+bank service fee,35,Other,2026-10-08
+emergency supplies,200,Other,2026-10-09
+ID card replacement,100,Other,2026-10-10
+canteen lunch meal,65,Food,2026-10-11
+breakfast poha,40,Food,2026-10-12
+dinner thali,95,Food,2026-10-13
+tea and biscuits,25,Food,2026-10-14
+fruit juice,50,Food,2026-10-15
+street food snack,70,Food,2026-10-16
+grocery rice dal,240,Food,2026-10-17
+vegetable shopping,160,Food,2026-10-18
+hostel mess food,110,Food,2026-10-19
+burger meal,130,Food,2026-10-20
+bus fare to college,20,Travel,2026-10-11
+daily bus ticket,18,Travel,2026-10-12
+auto fare college,75,Travel,2026-10-13
+train fare,140,Travel,2026-10-14
+metro card top up,200,Travel,2026-10-15
+cab ride home,180,Travel,2026-10-16
+petrol for scooter,300,Travel,2026-10-17
+parking fee,30,Travel,2026-10-18
+bike puncture repair,80,Travel,2026-10-19
+bus pass renewal,450,Travel,2026-10-20
+programming course book,500,Education,2026-10-11
+class notes printing,45,Education,2026-10-12
+photocopy lecture notes,30,Education,2026-10-13
+college exam fee,900,Education,2026-10-14
+laboratory materials,175,Education,2026-10-15
+engineering drawing sheets,90,Education,2026-10-16
+online learning class,350,Education,2026-10-17
+pen pencil stationery,65,Education,2026-10-18
+project submission binding,80,Education,2026-10-19
+technical workshop fee,250,Education,2026-10-20
+new shirt purchase,550,Shopping,2026-10-11
+jeans shopping,900,Shopping,2026-10-12
+phone charger purchase,250,Shopping,2026-10-13
+school bag purchase,700,Shopping,2026-10-14
+earbuds purchase,800,Shopping,2026-10-15
+water flask purchase,220,Shopping,2026-10-16
+notebook cover purchase,60,Shopping,2026-10-17
+socks purchase,120,Shopping,2026-10-18
+keyboard purchase,650,Shopping,2026-10-19
+personal care products,280,Shopping,2026-10-20
+cinema movie outing,220,Entertainment,2026-10-11
+watching movie ticket,180,Entertainment,2026-10-12
+video game purchase,499,Entertainment,2026-10-13
+music app premium,119,Entertainment,2026-10-14
+netflix subscription,199,Entertainment,2026-10-15
+college concert pass,350,Entertainment,2026-10-16
+birthday party outing,500,Entertainment,2026-10-17
+sports arcade games,160,Entertainment,2026-10-18
+theme park entry,600,Entertainment,2026-10-19
+weekend fun activity,250,Entertainment,2026-10-20
+monthly phone recharge,239,Bills,2026-10-11
+mobile data recharge,149,Bills,2026-10-12
+wifi monthly bill,399,Bills,2026-10-13
+electricity bill payment,450,Bills,2026-10-14
+hostel room maintenance bill,300,Bills,2026-10-15
+water bill payment,90,Bills,2026-10-16
+internet monthly plan,499,Bills,2026-10-17
+gas bill share,220,Bills,2026-10-18
+subscription renewal bill,99,Bills,2026-10-19
+phone postpaid bill,350,Bills,2026-10-20
+pharmacy medicine,120,Other,2026-10-11
+doctor consultation fee,300,Other,2026-10-12
+hair salon haircut,180,Other,2026-10-13
+gift for friend,350,Other,2026-10-14
+courier parcel charge,75,Other,2026-10-15
+shoe stitching repair,100,Other,2026-10-16
+bank transaction charge,25,Other,2026-10-17
+emergency first aid items,140,Other,2026-10-18
+passport photo print,40,Other,2026-10-19
+charity donation,100,Other,2026-10-20

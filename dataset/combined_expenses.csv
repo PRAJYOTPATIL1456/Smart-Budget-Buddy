@@ -1,0 +1,142 @@
+description,amount,category,date,source
+college canteen lunch,45,Food,2026-10-01,synthetic
+vada pav and tea,60,Food,2026-10-02,synthetic
+mess dinner,85,Food,2026-10-03,synthetic
+campus snacks,110,Food,2026-10-04,synthetic
+grocery vegetables,130,Food,2026-10-05,synthetic
+coffee between lectures,35,Food,2026-10-06,synthetic
+sandwich at college,75,Food,2026-10-07,synthetic
+hostel breakfast,90,Food,2026-10-08,synthetic
+pizza with friends,180,Food,2026-10-09,synthetic
+milk and bread,55,Food,2026-10-10,synthetic
+city bus ticket,15,Travel,2026-10-01,synthetic
+college bus pass,30,Travel,2026-10-02,synthetic
+auto rickshaw fare,50,Travel,2026-10-03,synthetic
+train ticket home,120,Travel,2026-10-04,synthetic
+metro recharge,100,Travel,2026-10-05,synthetic
+shared cab to campus,80,Travel,2026-10-06,synthetic
+petrol contribution,70,Travel,2026-10-07,synthetic
+local bus fare,20,Travel,2026-10-08,synthetic
+cycle repair,90,Travel,2026-10-09,synthetic
+rickshaw to station,45,Travel,2026-10-10,synthetic
+engineering textbook,350,Education,2026-10-01,synthetic
+notebook and pens,120,Education,2026-10-02,synthetic
+photocopy assignment,25,Education,2026-10-03,synthetic
+lab record book,80,Education,2026-10-04,synthetic
+online course fee,499,Education,2026-10-05,synthetic
+printing project report,60,Education,2026-10-06,synthetic
+calculator for class,280,Education,2026-10-07,synthetic
+exam form fee,750,Education,2026-10-08,synthetic
+stationery supplies,95,Education,2026-10-09,synthetic
+reference book,420,Education,2026-10-10,synthetic
+new headphones,650,Shopping,2026-10-01,synthetic
+phone case,180,Shopping,2026-10-02,synthetic
+college t shirt,450,Shopping,2026-10-03,synthetic
+backpack purchase,900,Shopping,2026-10-04,synthetic
+water bottle,120,Shopping,2026-10-05,synthetic
+casual shoes,1100,Shopping,2026-10-06,synthetic
+usb cable,90,Shopping,2026-10-07,synthetic
+watch strap,150,Shopping,2026-10-08,synthetic
+laundry detergent,160,Shopping,2026-10-09,synthetic
+umbrella,300,Shopping,2026-10-10,synthetic
+movie ticket,180,Entertainment,2026-10-01,synthetic
+concert entry,250,Entertainment,2026-10-02,synthetic
+gaming subscription,99,Entertainment,2026-10-03,synthetic
+music subscription,149,Entertainment,2026-10-04,synthetic
+bowling with friends,220,Entertainment,2026-10-05,synthetic
+streaming rental,80,Entertainment,2026-10-06,synthetic
+college fest ticket,300,Entertainment,2026-10-07,synthetic
+arcade games,120,Entertainment,2026-10-08,synthetic
+museum entry,100,Entertainment,2026-10-09,synthetic
+weekend outing,400,Entertainment,2026-10-10,synthetic
+mobile recharge,199,Bills,2026-10-01,synthetic
+monthly data plan,249,Bills,2026-10-02,synthetic
+electricity contribution,300,Bills,2026-10-03,synthetic
+hostel wifi share,150,Bills,2026-10-04,synthetic
+water bill share,100,Bills,2026-10-05,synthetic
+phone bill,180,Bills,2026-10-06,synthetic
+internet recharge,299,Bills,2026-10-07,synthetic
+printing subscription,79,Bills,2026-10-08,synthetic
+hostel maintenance,500,Bills,2026-10-09,synthetic
+software subscription,129,Bills,2026-10-10,synthetic
+medicine from pharmacy,90,Other,2026-10-01,synthetic
+haircut,120,Other,2026-10-02,synthetic
+birthday gift,250,Other,2026-10-03,synthetic
+parcel delivery,60,Other,2026-10-04,synthetic
+shoe repair,150,Other,2026-10-05,synthetic
+document courier,80,Other,2026-10-06,synthetic
+small donation,50,Other,2026-10-07,synthetic
+bank service fee,35,Other,2026-10-08,synthetic
+emergency supplies,200,Other,2026-10-09,synthetic
+ID card replacement,100,Other,2026-10-10,synthetic
+canteen lunch meal,65,Food,2026-10-11,synthetic
+breakfast poha,40,Food,2026-10-12,synthetic
+dinner thali,95,Food,2026-10-13,synthetic
+tea and biscuits,25,Food,2026-10-14,synthetic
+fruit juice,50,Food,2026-10-15,synthetic
+street food snack,70,Food,2026-10-16,synthetic
+grocery rice dal,240,Food,2026-10-17,synthetic
+vegetable shopping,160,Food,2026-10-18,synthetic
+hostel mess food,110,Food,2026-10-19,synthetic
+burger meal,130,Food,2026-10-20,synthetic
+bus fare to college,20,Travel,2026-10-11,synthetic
+daily bus ticket,18,Travel,2026-10-12,synthetic
+auto fare college,75,Travel,2026-10-13,synthetic
+train fare,140,Travel,2026-10-14,synthetic
+metro card top up,200,Travel,2026-10-15,synthetic
+cab ride home,180,Travel,2026-10-16,synthetic
+petrol for scooter,300,Travel,2026-10-17,synthetic
+parking fee,30,Travel,2026-10-18,synthetic
+bike puncture repair,80,Travel,2026-10-19,synthetic
+bus pass renewal,450,Travel,2026-10-20,synthetic
+programming course book,500,Education,2026-10-11,synthetic
+class notes printing,45,Education,2026-10-12,synthetic
+photocopy lecture notes,30,Education,2026-10-13,synthetic
+college exam fee,900,Education,2026-10-14,synthetic
+laboratory materials,175,Education,2026-10-15,synthetic
+engineering drawing sheets,90,Education,2026-10-16,synthetic
+online learning class,350,Education,2026-10-17,synthetic
+pen pencil stationery,65,Education,2026-10-18,synthetic
+project submission binding,80,Education,2026-10-19,synthetic
+technical workshop fee,250,Education,2026-10-20,synthetic
+new shirt purchase,550,Shopping,2026-10-11,synthetic
+jeans shopping,900,Shopping,2026-10-12,synthetic
+phone charger purchase,250,Shopping,2026-10-13,synthetic
+school bag purchase,700,Shopping,2026-10-14,synthetic
+earbuds purchase,800,Shopping,2026-10-15,synthetic
+water flask purchase,220,Shopping,2026-10-16,synthetic
+notebook cover purchase,60,Shopping,2026-10-17,synthetic
+socks purchase,120,Shopping,2026-10-18,synthetic
+keyboard purchase,650,Shopping,2026-10-19,synthetic
+personal care products,280,Shopping,2026-10-20,synthetic
+cinema movie outing,220,Entertainment,2026-10-11,synthetic
+watching movie ticket,180,Entertainment,2026-10-12,synthetic
+video game purchase,499,Entertainment,2026-10-13,synthetic
+music app premium,119,Entertainment,2026-10-14,synthetic
+netflix subscription,199,Entertainment,2026-10-15,synthetic
+college concert pass,350,Entertainment,2026-10-16,synthetic
+birthday party outing,500,Entertainment,2026-10-17,synthetic
+sports arcade games,160,Entertainment,2026-10-18,synthetic
+theme park entry,600,Entertainment,2026-10-19,synthetic
+weekend fun activity,250,Entertainment,2026-10-20,synthetic
+monthly phone recharge,239,Bills,2026-10-11,synthetic
+mobile data recharge,149,Bills,2026-10-12,synthetic
+wifi monthly bill,399,Bills,2026-10-13,synthetic
+electricity bill payment,450,Bills,2026-10-14,synthetic
+hostel room maintenance bill,300,Bills,2026-10-15,synthetic
+water bill payment,90,Bills,2026-10-16,synthetic
+internet monthly plan,499,Bills,2026-10-17,synthetic
+gas bill share,220,Bills,2026-10-18,synthetic
+subscription renewal bill,99,Bills,2026-10-19,synthetic
+phone postpaid bill,350,Bills,2026-10-20,synthetic
+pharmacy medicine,120,Other,2026-10-11,synthetic
+doctor consultation fee,300,Other,2026-10-12,synthetic
+hair salon haircut,180,Other,2026-10-13,synthetic
+gift for friend,350,Other,2026-10-14,synthetic
+courier parcel charge,75,Other,2026-10-15,synthetic
+shoe stitching repair,100,Other,2026-10-16,synthetic
+bank transaction charge,25,Other,2026-10-17,synthetic
+emergency first aid items,140,Other,2026-10-18,synthetic
+passport photo print,40,Other,2026-10-19,synthetic
+charity donation,100,Other,2026-10-20,synthetic
+books,500.0,Study,2026-11-10,real

@@ -1,0 +1,71 @@
+description,amount,category,date,source
+lunch,57,Food,2026-11-01,synthetic
+breakfast,64,Food,2026-11-02,synthetic
+dinner,71,Food,2026-11-03,synthetic
+canteen meal,78,Food,2026-11-04,synthetic
+hostel mess,85,Food,2026-11-05,synthetic
+vada pav,92,Food,2026-11-06,synthetic
+pav bhaji,99,Food,2026-11-07,synthetic
+tea and samosa,106,Food,2026-11-08,synthetic
+college cafe coffee,113,Food,2026-11-09,synthetic
+snacks after class,120,Food,2026-11-10,synthetic
+bus,127,Travel,2026-11-11,synthetic
+train,134,Travel,2026-11-12,synthetic
+metro,141,Travel,2026-11-13,synthetic
+auto fare,148,Travel,2026-11-14,synthetic
+rickshaw ride,155,Travel,2026-11-15,synthetic
+bus ticket,162,Travel,2026-11-16,synthetic
+daily pass,169,Travel,2026-11-17,synthetic
+cab to college,176,Travel,2026-11-18,synthetic
+petrol share,183,Travel,2026-11-19,synthetic
+metro card recharge,190,Travel,2026-11-20,synthetic
+books,197,Education,2026-11-21,synthetic
+book,204,Education,2026-11-22,synthetic
+textbooks,211,Education,2026-11-23,synthetic
+notebook,218,Education,2026-11-24,synthetic
+class notes,225,Education,2026-11-25,synthetic
+semester books,232,Education,2026-11-26,synthetic
+exam fee,239,Education,2026-11-27,synthetic
+college stationery,246,Education,2026-11-28,synthetic
+lab manual,253,Education,2026-11-01,synthetic
+assignment printout,260,Education,2026-11-02,synthetic
+bought headphones,267,Shopping,2026-11-03,synthetic
+new backpack,274,Shopping,2026-11-04,synthetic
+bought a shirt,281,Shopping,2026-11-05,synthetic
+phone cover,288,Shopping,2026-11-06,synthetic
+new shoes,295,Shopping,2026-11-07,synthetic
+water bottle purchase,302,Shopping,2026-11-08,synthetic
+usb drive,309,Shopping,2026-11-09,synthetic
+college uniform,316,Shopping,2026-11-10,synthetic
+bought a watch,323,Shopping,2026-11-11,synthetic
+shopping,330,Shopping,2026-11-12,synthetic
+movie,337,Entertainment,2026-11-13,synthetic
+cinema ticket,344,Entertainment,2026-11-14,synthetic
+video game,351,Entertainment,2026-11-15,synthetic
+music app,358,Entertainment,2026-11-16,synthetic
+concert ticket,365,Entertainment,2026-11-17,synthetic
+college fest,372,Entertainment,2026-11-18,synthetic
+weekend outing,379,Entertainment,2026-11-19,synthetic
+arcade,386,Entertainment,2026-11-20,synthetic
+streaming subscription,393,Entertainment,2026-11-21,synthetic
+bowling,400,Entertainment,2026-11-22,synthetic
+recharge,407,Bills,2026-11-23,synthetic
+mobile recharge,414,Bills,2026-11-24,synthetic
+phone recharge,421,Bills,2026-11-25,synthetic
+internet bill,428,Bills,2026-11-26,synthetic
+wifi bill,435,Bills,2026-11-27,synthetic
+electricity bill,442,Bills,2026-11-28,synthetic
+water bill,449,Bills,2026-11-01,synthetic
+monthly data pack,456,Bills,2026-11-02,synthetic
+hostel rent,463,Bills,2026-11-03,synthetic
+phone plan,470,Bills,2026-11-04,synthetic
+haircut,477,Other,2026-11-05,synthetic
+medicine,484,Other,2026-11-06,synthetic
+doctor visit,491,Other,2026-11-07,synthetic
+birthday gift,498,Other,2026-11-08,synthetic
+courier charge,505,Other,2026-11-09,synthetic
+bank fee,512,Other,2026-11-10,synthetic
+shoe repair,519,Other,2026-11-11,synthetic
+passport photo,526,Other,2026-11-12,synthetic
+donation,533,Other,2026-11-13,synthetic
+emergency supplies,540,Other,2026-11-14,synthetic

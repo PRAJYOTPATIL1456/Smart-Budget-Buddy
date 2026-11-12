@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Budget Buddy | NeoFin Student Edition</title>
+  <meta name="description" content="A smarter, student-friendly way to track spending, plan purchases and build savings habits.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-icon">₹<i></i></span>
+        <div>
+          <h2>Budget Buddy</h2>
+          <small>Student Edition</small>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#overview"><span class="nav-icon">⌂</span>Overview</a>
+        <a href="#purchase"><span class="nav-icon">↗</span>Spend Before You Buy</a>
+        <a href="#coach"><span class="nav-icon">✧</span>Smart Spending Coach</a>
+        <a href="#transactions"><span class="nav-icon">⇄</span>Transactions</a>
+        <a href="#income"><span class="nav-icon">＋</span>Extra Income</a>
+        <a href="#goals"><span class="nav-icon">◎</span>Saving Goals</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span>Made for smarter student spending.</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">✦ YOUR PERSONAL FINANCE SPACE</p>
+          <h1>Smart Budget <span class="title-accent">Buddy.</span></h1>
+          <p class="muted">Your money, your momentum. Make every rupee count.</p>
+        </div>
+        <div>
+          <div class="month-badge" id="monthLabel"></div>
+          <p id="storageStatus" class="storage-status" role="status" aria-live="polite">Connecting to SQLite...</p>
+        </div>
+      </header>
+
+      <section id="overview">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">✦ MONTHLY OVERVIEW</p>
+            <h2>Your budget at a glance</h2>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label">Monthly Allowance</span>
+            <h2 id="allowanceDisplay">₹8,000</h2>
+            <small>Planned monthly budget</small>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-label">Total Spent</span>
+            <h2 id="spentDisplay">₹0</h2>
+            <small id="spentHint">0 expenses this month</small>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-label">Available Balance</span>
+            <h2 id="remainingDisplay">₹8,000</h2>
+            <small id="remainingHint">Available to use</small>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-label">Daily Safe Spend</span>
+            <h2 id="dailyDisplay">₹0</h2>
+            <small>Estimated amount per day</small>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          <div class="panel">
+            <p class="eyebrow">BUDGET SETTINGS</p>
+            <h3>Monthly allowance</h3>
+            <form id="allowanceForm" class="inline-form">
+              <input id="allowanceInput" type="number" min="1" step="0.01"
+                placeholder="Enter allowance" required>
+              <button type="submit">Update</button>
+            </form>
+          </div>
+
+          <div class="panel">
+            <p class="eyebrow">BUDGET USAGE</p>
+            <h3>Spending progress</h3>
+            <div class="progress-track">
+              <div class="progress-fill" id="budgetProgress"></div>
+            </div>
+            <p class="muted"><span id="budgetPercent">0%</span> of allowance spent</p>
+          </div>
+        </div>
+
+        <div class="panel forecast-panel">
+          <p class="eyebrow">MONTH-END FORECAST</p>
+          <h3>Estimated remaining balance</h3>
+          <h2 id="forecastDisplay">₹8,000</h2>
+          <p class="muted" id="forecastText"></p>
+          <p class="smart-tip" id="smartTip"></p>
+        </div>
+      </section>
+
+      <section id="purchase" class="content-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">✦ THINK BEFORE YOU SPEND</p>
+            <h2>Spend Before You Buy</h2>
+            <p class="muted">Check how a purchase could affect your budget.</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="form-grid">
+            <div class="field">
+              <label for="purchaseName">Purchase name</label>
+              <input id="purchaseName" type="text" placeholder="e.g. Headphones">
+            </div>
+            <div class="field">
+              <label for="purchasePrice">Purchase price (₹)</label>
+              <input id="purchasePrice" type="number" min="0.01" step="0.01"
+                placeholder="Enter amount">
+            </div>
+          </div>
+          <button id="checkPurchase" type="button">Check this purchase</button>
+          <div id="decisionResult" class="decision-result"></div>
+        </div>
+      </section>
+
+      <section id="coach" class="content-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">✦ SMART MONEY HABITS</p>
+            <h2>Smart Spending Coach</h2>
+            <p class="muted">Get suggestions based on your recorded spending.</p>
+          </div>
+        </div>
+
+        <div class="panel ai-panel">
+          <div class="coach-top">
+            <div>
+              <h3>Your spending analysis</h3>
+              <p class="muted">Simple, rule-based budgeting insights.</p>
+            </div>
+            <button id="getInsights" type="button">Analyse my spending</button>
+          </div>
+          <div id="aiInsights">
+            <p class="muted">Click the button to analyse your spending habits.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="transactions" class="content-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">✦ MONEY TRACKER</p>
+            <h2>Transactions</h2>
+            <p class="muted">Record expenses using the actual date they happened.</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Add an expense</h3>
+          <form id="expenseForm">
+            <div class="form-grid">
+              <div class="field">
+                <label for="expenseTitle">Expense name</label>
+                <input id="expenseTitle" type="text" placeholder="e.g. Lunch" required>
+              </div>
+
+              <div class="field">
+                <label for="expenseAmount">Amount (₹)</label>
+                <input id="expenseAmount" type="number" min="0.01"
+                  step="0.01" placeholder="Enter amount" required>
+              </div>
+
+              <div class="field">
+                <label for="expenseCategory">Category</label>
+                <select id="expenseCategory" required>
+                  <option value="Food">Food</option>
+                  <option value="Travel">Travel</option>
+                  <option value="Education">Education</option>
+                  <option value="Shopping">Shopping</option>
+                  <option value="Entertainment">Entertainment</option>
+                  <option value="Bills">Bills</option>
+                  <option value="Other">Other</option>
+                </select>
+                <button type="button" id="suggestCategoryButton" class="ai-suggest-button">✦ Suggest with SmartSpend AI</button>
+                <p id="categorySuggestion" class="ai-suggestion" role="status" aria-live="polite">AI category suggestions will appear here.</p>
+              </div>
+
+              <div class="field">
+                <label for="expenseDate">Expense date</label>
+                <input id="expenseDate" type="date" required>
+              </div>
+            </div>
+
+            <button type="submit">Add expense</button>
+          </form>
+        </div>
+
+        <div class="panel transaction-panel">
+          <div class="transaction-heading">
+            <div>
+              <h3>Transaction history</h3>
+              <p class="muted">Find transactions by date or date range.</p>
+            </div>
+          </div>
+
+          <div class="filter-grid">
+            <div class="field">
+              <label for="filterMode">Filter type</label>
+              <select id="filterMode">
+                <option value="all">All transactions</option>
+                <option value="date">Specific date</option>
+                <option value="range">Date range</option>
+              </select>
+            </div>
+
+            <div class="field filter-date" id="singleDateGroup">
+              <label for="singleDateFilter">Select date</label>
+              <input id="singleDateFilter" type="date">
+            </div>
+
+            <div class="field filter-date" id="startDateGroup">
+              <label for="startDateFilter">Start date</label>
+              <input id="startDateFilter" type="date">
+            </div>
+
+            <div class="field filter-date" id="endDateGroup">
+              <label for="endDateFilter">End date</label>
+              <input id="endDateFilter" type="date">
+            </div>
+          </div>
+
+          <p class="filter-summary muted" id="filterSummary"></p>
+          <div id="transactionList" class="transaction-list"></div>
+        </div>
+      </section>
+
+      <section id="income" class="content-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">✦ MONEY RECEIVED</p>
+            <h2>Extra Income</h2>
+            <p class="muted">Record money received apart from your regular allowance.</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Add extra income</h3>
+          <form id="incomeForm">
+            <div class="form-grid">
+              <div class="field">
+                <label for="incomeSource">Income source</label>
+                <input id="incomeSource" type="text"
+                  placeholder="e.g. Gift, freelance work" required>
+              </div>
+
+              <div class="field">
+                <label for="incomeAmount">Amount (₹)</label>
+                <input id="incomeAmount" type="number" min="0.01"
+                  step="0.01" placeholder="Enter amount" required>
+              </div>
+
+              <div class="field">
+                <label for="incomeDate">Date received</label>
+                <input id="incomeDate" type="date" required>
+              </div>
+            </div>
+
+            <button type="submit">Add income</button>
+          </form>
+          <p class="muted income-note">
+            Income is added to your available balance for the month in which it was received.
+          </p>
+        </div>
+      </section>
+
+      <section id="goals" class="content-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">✦ SAVE FOR SOMETHING BIGGER</p>
+            <h2>Saving Goals</h2>
+            <p class="muted">Create a goal and track your progress.</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="form-grid">
+            <div class="field">
+              <label for="goalName">Goal name</label>
+              <input id="goalName" type="text" placeholder="e.g. New laptop">
+            </div>
+            <div class="field">
+              <label for="goalAmount">Target amount (₹)</label>
+              <input id="goalAmount" type="number" min="0.01"
+                step="0.01" placeholder="Enter target">
+            </div>
+          </div>
+          <button id="saveGoal" type="button">Save goal</button>
+          <div id="goalCard" class="goal-card"></div>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        Smart Budget Buddy · Student Edition
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
